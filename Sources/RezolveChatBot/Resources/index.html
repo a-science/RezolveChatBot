@@ -5,9 +5,8 @@
     <title>Landing page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Next two lines https://cdn.test.virtualpeople.ai to https://cdn.virtualpeople.ai for PROD-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.staging.virtualpeople.ai/style.css">
-    <script src="https://cdn.staging.virtualpeople.ai/widget.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.virtualpeople.ai/style.css">
+    <script src="https://cdn.virtualpeople.ai/widget.js"></script>
 
     <!--from line 13 to 41 script is used to mount widget and enabling functionality of launch chat  button-->
     <script>
@@ -19,9 +18,6 @@
             }
             window.EmbeddableWidget.mount(tenantId,"",dict,'{"isGuestLogin": "true" }');
         }
-        
-        window.EmbeddableWidget.mount("eogresources","",dict, '{ "isGuestLogin": "true" }');
-    
             //new change icon will display after chat bot load
             let timerClearIcom = setInterval(()=>{
               var el = document.querySelector('.chat-container')
