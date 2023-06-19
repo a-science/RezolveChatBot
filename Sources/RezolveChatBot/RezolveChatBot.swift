@@ -1,9 +1,3 @@
-//
-//  RezolveChatBot.swift
-//  ResolveAI
-//
-//  Created by Arun Madasamy on 06/16/22.
-//
 
 import UIKit
 import WebKit
