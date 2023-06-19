@@ -13,6 +13,13 @@ let webViewController = RezolveChatBot()
 
 3. Replace the tenant name "xxxxx" with your tenant name.
 
+Instruction to Change the environment - please mention the branch name as:
+
+If in case of production pointing environment : prod
+
+If in case of staging pointing environment : staging
+
+<img width="741" alt="Environment_change" src="https://github.com/a-science/RezolveChatBot/assets/1118654/31020d07-b1c0-4451-8971-56bc936b8191">
 
 Instruction for updating the package:
 1. Right click on the package.
